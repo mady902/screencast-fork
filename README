@@ -1,0 +1,11 @@
+=== installation: ===
+
+$ chmod +x ./makeVideo.sh
+
+
+=== usage ===
+
+$ python 1pic1sS.py
+$ ./makeVideo.sh
+
+
