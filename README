@@ -5,7 +5,10 @@ $ chmod +x ./makeVideo.sh
 
 === usage ===
 
-$ python 1pic1sS.py
+$ python screencast.py
 $ ./makeVideo.sh
 
 
+== notas ==
+
+ele nao encara mais do que 4 fps
