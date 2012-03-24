@@ -18,6 +18,14 @@ while 1:
         lag=(time.time()-anterior)
         #correction = DUR - lag
         dur2 = DUR -lag
+        if dur2 < 0:
+            i+=1
+            name2="screenshot%03d.png" % (i,)
+            os.system('cp %s %s' % (name,name2))
+
+            lag=(time.time()-anterior)
+            dur2=2*DUR -lag
+
         #print "lag=%.3f dur2=%.3f tot=%.3f" % (lag, dur2, lag+dur2)
         time.sleep(dur2)
         anterior=time.time()
